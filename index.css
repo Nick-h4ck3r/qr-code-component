@@ -1,0 +1,56 @@
+.attribution {
+  font-size: 15px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+* {
+  background: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.qrcodepng {
+    width: 100%;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.qrcode {
+    background: transparent;
+    border-radius: 10px;
+}
+
+.title {
+    background: transparent;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.descript {
+    background: transparent;
+    color: hsl(220, 15%, 55%);
+    font-size: smaller;
+    font-weight: lighter;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
